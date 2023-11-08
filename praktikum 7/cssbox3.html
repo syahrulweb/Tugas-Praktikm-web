@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSBOX3</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .row1,
+        .row2{
+            display: flex;
+            gap: 10px;
+        }
+        .row1-yellow{
+            background-color: yellow;
+            height: 100px;
+            flex-grow: 1;
+        }
+        .row1-orange{
+            background-color: orange;
+            height: 100px;
+            flex-grow: 3;
+        }
+        .row2-green{
+            background-color: green;
+            height: 400px;
+            flex-grow: 1;
+        }
+        .row2-gray{
+            background-color: gray;
+            height: 400px;
+            flex-grow: 2;
+        }
+        .row2-lightblue{
+            background-color: lightblue;
+            height: 400px;
+            flex-grow: 1;
+        }
+        .row3{
+            background-color: blue;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="color:brown; text-align: center;">IMPLEMENTASI CSS BOX DAN POSITIONING</h1>
+    <div class="container">
+        <div class="row1">
+            <div class="row1-yellow">Kotak Kuning</div>
+            <div class="row1-orange">Kotak Orange</div>
+        </div>
+        <div class="row2">
+            <div class="row2-green">Kotak Hijau</div>
+            <div class="row2-gray">Kotak Abu</div>
+            <div class="row2-lightblue">Kotak Biru Muda</div>
+        </div>
+        <div class="row3">Baris Biru</div>
+    </div>
+</body>
+</html>
